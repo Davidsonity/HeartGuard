@@ -31,6 +31,6 @@ Thirteen (13) clinical features:
 - death event: if the patient deceased during the follow-up period (boolean)
 
 ### Results: 
-> For Heart Failure Recall is the most important metrics.
+> For Heart Failure Recall and Fscore is the most important metrics.
 
 ![shot](https://user-images.githubusercontent.com/96771321/214642905-926ca64b-68f3-4c04-aa42-89569c75bd1d.jpg)
