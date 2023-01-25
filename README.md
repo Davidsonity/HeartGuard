@@ -2,6 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/96771321/189802385-c30359f6-3a21-4aae-b105-4ab51bc30a19.png)
 
+> View Notebook: https://github.com/Davidsonity/Heart_Failure/blob/main/Heart_Failure.ipynb
+
+
 ### **INTRODUCTION**
 #### **Objectives**
 The objective of this project is to use Machine learning to predict Heart Failure of a patient.
@@ -26,3 +29,8 @@ Thirteen (13) clinical features:
 - smoking: if the patient smokes or not (boolean)
 - time: follow-up period (days)
 - death event: if the patient deceased during the follow-up period (boolean)
+
+### Results: 
+> For Heart Failure Recall is the most important metrics.
+
+![shot](https://user-images.githubusercontent.com/96771321/214642905-926ca64b-68f3-4c04-aa42-89569c75bd1d.jpg)
