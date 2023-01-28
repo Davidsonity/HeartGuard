@@ -7,7 +7,7 @@
 
 ### **INTRODUCTION**
 #### **Objectives**
-The objective of this project is to use Machine learning to predict Heart Failure of a patient.
+The objective of this project is to build a machine learning model to predict Heart Failure of a patient.
 
 #### **About Dataset**
 This dataset contains the medical records of 299 patients who had heart failure, collected during their follow-up period, where each patient profile has 13 clinical features. 
