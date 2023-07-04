@@ -1,39 +1,42 @@
-# **Heart Failure Prediction using Supervised ML approach**
+## Heart Failure Prediction using Supervised ML Approach
 
 ![image](https://user-images.githubusercontent.com/96771321/189802385-c30359f6-3a21-4aae-b105-4ab51bc30a19.png)
 
-> View Notebook: https://github.com/Davidsonity/Heart_Failure/blob/main/Heart_Failure.ipynb
+> View Notebook: [Heart_Failure.ipynb](https://github.com/Davidsonity/Heart_Failure/blob/main/Heart_Failure.ipynb)
 
+Heart failure is a critical medical condition that affects a significant number of people worldwide. Predicting heart failure in patients can help medical professionals take proactive measures to prevent adverse outcomes and provide timely interventions. In this project, we aim to build a machine learning model to predict heart failure in patients using a supervised ML approach.
 
-### **INTRODUCTION**
-#### **Objectives**
-The objective of this project is to build a machine learning model to predict Heart Failure of a patient.
+### Dataset Description
 
-#### **About Dataset**
-This dataset contains the medical records of 299 patients who had heart failure, collected during their follow-up period, where each patient profile has 13 clinical features. 
+The dataset used in this project contains the medical records of 299 patients who experienced heart failure during their follow-up period. Each patient profile consists of 13 clinical features, including age, presence of anemia, high blood pressure, creatinine phosphokinase (CPK) levels, diabetes status, ejection fraction, platelet count, gender, serum creatinine levels, serum sodium levels, smoking habit, follow-up period, and death event.
 
-**Data Source:** http://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records
+The dataset can be accessed from the following source: [Heart Failure Clinical Records](http://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records)
 
-**Attribute Information:**
-Thirteen (13) clinical features:
-- age: age of the patient (years)
-- anaemia: decrease of red blood cells or hemoglobin (boolean)
-- high blood pressure: if the patient has hypertension (boolean)
-- creatinine phosphokinase (CPK): level of the CPK enzyme in the blood (mcg/L)
-- diabetes: if the patient has diabetes (boolean)
-- ejection fraction: percentage of blood leaving the heart at each contraction (percentage)
-- platelets: platelets in the blood (kiloplatelets/mL)
-- sex: woman or man (binary)
-- serum creatinine: level of serum creatinine in the blood (mg/dL)
-- serum sodium: level of serum sodium in the blood (mEq/L)
-- smoking: if the patient smokes or not (boolean)
-- time: follow-up period (days)
-- death event: if the patient deceased during the follow-up period (boolean)
+### Project Summary
 
-### Results: 
-> For Heart Failure Recall and Fscore is the most important metrics.
+The main objective of this project is to develop a machine learning model that can accurately predict heart failure in patients. To achieve this, we follow a supervised ML approach, where we train the model using the available dataset with labeled heart failure cases. Once trained, the model can then be used to make predictions on new, unseen data.
+
+We employ various ML algorithms and techniques to build and evaluate the model's performance. Evaluation metrics such as recall and F-score are used to assess the model's accuracy in predicting heart failure cases. The model that exhibits the best performance is selected as the final prediction model.
+
+### Repository Structure
+
+This repository contains the following files:
+
+- `Heart_Failure.ipynb`: A Jupyter Notebook containing the complete project code and documentation. It provides step-by-step explanations of data preprocessing, model training, and evaluation.
+
+### How to Use the Notebook
+
+To run the project notebook locally, please follow these steps:
+
+1. Clone this repository to your local machine or download the notebook file `Heart_Failure.ipynb` directly.
+2. Ensure that you have the necessary dependencies installed. You can refer to the `requirements.txt` file for the required libraries and their versions.
+3. Open the notebook using Jupyter Notebook or any compatible environment.
+4. Execute the cells in the notebook sequentially to replicate the project's results and explore the code and analysis.
+
+### Results
+
+After evaluating various ML models on the heart failure prediction task, we found that the Voting Classifier exhibited the highest performance. The Voting Classifier combines the predictions of multiple individual classifiers to make the final prediction. It leverages the strengths of different algorithms, resulting in improved predictive accuracy for heart failure cases.
+
+The evaluation metrics, including recall and F-score, indicate the model's effectiveness in identifying heart failure instances. By utilizing this model, medical professionals can make more informed decisions and provide timely interventions to improve patient outcomes.
 
 ![shot](https://user-images.githubusercontent.com/96771321/214642905-926ca64b-68f3-4c04-aa42-89569c75bd1d.jpg)
-
-
-From the above, It is clear that the Voting Classifier is the best choice for predicting Heart Failure.
