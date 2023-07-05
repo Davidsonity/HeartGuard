@@ -18,11 +18,24 @@ The main objective of this project is to develop a machine learning model that c
 
 We employ various ML algorithms and techniques to build and evaluate the model's performance. Evaluation metrics such as recall and F-score are used to assess the model's accuracy in predicting heart failure cases. The model that exhibits the best performance is selected as the final prediction model.
 
-### Repository Structure
+### Project Structure
+The project directory is structured as follows:
 
-This repository contains the following files:
+```
+├── HeartFailure_Report.pdf
+└── Heart_Failure.ipynb
+├── LICENSE
+├── README.md
+├── heart_failure_clinical_records_dataset.csv
+```
 
-- `Heart_Failure.ipynb`: A Jupyter Notebook containing the complete project code and documentation. It provides step-by-step explanations of data preprocessing, model training, and evaluation.
+- `HeartFailure_Report.pdf` is the report file containing procedures and results.
+- `Heart_Failure.ipynb` is the Jupyter Notebook file containing the code and analysis for the Heart Failure Prediction project.
+- `LICENSE` is the file specifying the project's license information.
+- `README.md` is the README file providing an overview and instructions for the project.
+- `heart_failure_clinical_records_dataset.csv` is the dataset file containing the heart failure clinical records.
+
+These files collectively form the structure of the Heart Failure Prediction project repository.
 
 ### How to Use the Notebook
 
