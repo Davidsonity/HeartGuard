@@ -1,8 +1,9 @@
-## Heart Failure Prediction using Supervised ML Approach
+## HeartGuard
+> Heart Failure Prediction using Supervised ML Approach
 
 ![image](https://user-images.githubusercontent.com/96771321/189802385-c30359f6-3a21-4aae-b105-4ab51bc30a19.png)
 
-> View Notebook: [Heart_Failure.ipynb](https://github.com/Davidsonity/Heart_Failure/blob/main/Heart_Failure.ipynb)
+> View Notebook: [Heart_Failure.ipynb](https://github.com/Davidsonity/HeartGuard/blob/main/Heart_Failure.ipynb)
 
 Heart failure is a critical medical condition that affects a significant number of people worldwide. Predicting heart failure in patients can help medical professionals take proactive measures to prevent adverse outcomes and provide timely interventions. In this project, we aim to build a machine learning model to predict heart failure in patients using a supervised ML approach.
 
